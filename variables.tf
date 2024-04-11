@@ -111,9 +111,7 @@ variable "subnet_ids" {
 variable "tags" {
   type        = map(string)
   description = "A mapping of tags to assign to the Lambda Function."
-  default = {
-    Automation = "Terraform"
-  }
+  default = {}
 }
 
 variable "timeout" {
